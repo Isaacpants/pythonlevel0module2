@@ -8,9 +8,10 @@ if __name__ == '__main__':
     # TODO Get the user to enter a question for the 8 ball to answer
 
     # Make a variable and initialize it to a random number between 0 and 3
-
+    rand = random.randint(0,3)
     # If the random number is 0
-
+    if(rand == 0):
+        print('works')
         # tell the user "Yes"
 
     # If the random number is 1
